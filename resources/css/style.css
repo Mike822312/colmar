@@ -1,0 +1,149 @@
+/* Universal Styles */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* Header */
+
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: left;
+  height: 64px;
+
+}
+
+header h3 {
+  display: inline;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+}
+
+nav li {
+  display: inline;
+  padding-right: 2rem;
+}
+
+/* Main Body */
+
+/* Something New Section */
+
+.somethingnew-container {
+  display: flex;
+  align-items: center;
+  background-color: LightGray;
+  color: DimGray;
+}
+
+.somethingnew-container img {
+  width: 60%;
+  height: auto;
+  margin: 24px;
+  display: block;
+
+}
+
+.column-right h2 {
+  color: LightGray;
+  font-weight: bold;
+  background-color: black;
+}
+
+.column-right {
+  align-items: center;
+  display: flex;
+}
+
+.somethingnew-container p {
+  color: LightGray;
+  background-color: Gray;
+  padding: 1em;
+  margin-right: 15%;
+}
+
+/* Practicing  Section */
+
+.practicing-container {
+  display: flex;
+  color: DimGray;
+}
+
+.practicing-container img {
+  width: 100%;
+  height: auto;
+
+}
+
+
+.column-left {
+    width: 60%;
+    margin: 24px;
+    float: left;
+  }
+
+.practicing-right {
+      width: 40%;
+      /*margin-left: 24px;*/
+      /*margin-top: 24px;*/
+
+      }
+
+.practicing-container h2 {
+    margin: 32px 24px;
+    width: 65%;
+
+
+    }
+
+.practicing-container p {
+  margin: 24px;
+
+  }
+
+.practicing-right img {
+      width: 35%;
+      height: auto;
+      display: inline;
+      float: left;
+    }
+
+#orientation img {
+  display: inline-block;
+  float: left;
+}
+
+#ourcampus img {
+  display: inline-block;
+  float: left;
+}
+
+/* Start Learning  Section */
+
+.startlearning {
+  display: flex;
+  flex-direction: ;
+  width: 100%;
+  background-color: LightGray;
+  justify-content: space-around;
+}
+
+.softwareeng, .computerart, .design {
+  width: auto;
+  height: auto;
+}
